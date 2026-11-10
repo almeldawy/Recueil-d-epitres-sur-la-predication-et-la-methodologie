@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recueil d'épîtres — Al-Fawzân</title>
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('rdm-theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<div class="progress-top"><div id="pbar"></div></div>
+<header class="topbar">
+  <button class="ico" id="menuBtn" aria-label="Sommaire">☰</button>
+  <div class="tb-title">Accueil</div>
+  <button class="ico" id="themeBtn" title="Clair / sombre" aria-label="Thème">◐</button>
+</header>
+<aside id="sidebar"></aside>
+<div id="veil"></div>
+<main class="reader">
+  <div class="home">
+    <div class="cover-ar" lang="ar">مجموعة رسائل دعوية ومنهجية</div>
+    <h1>Recueil d'épîtres sur la prédication et la méthodologie</h1>
+    <div class="author">Cheikh Sâlih ibn Fawzân ibn ʿAbdillâh Al-Fawzân — traduction française pour l'étude personnelle</div>
+    <a id="resume" class="resume" hidden href="#">Reprendre la lecture →<small></small></a>
+    <p class="intro-note">Ce recueil réunit dix-huit épîtres et conférences du Cheikh, suivies pour la plupart des questions posées par l'assistance et de ses réponses. Les versets coraniques sont donnés en arabe dans un bloc séparé, suivis de leur traduction ; les notes s'ouvrent dans une fenêtre au clic sur leur numéro.</p>
+    <div id="cards" class="cards"></div>
+  </div>
+</main>
+<div id="toast"></div>
+<script src="chapitres.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
